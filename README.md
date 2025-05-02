@@ -12,14 +12,6 @@ Esta ferramenta `dnsresolver` foi desenvolvida para fins educacionais no campo d
 
 ---
 
-**Uso:**
-
-Para utilizar o `dnsresolver`, siga as instruções abaixo após compilar o código:
-
-```bash
-./dnsresolver <arquivo_subdominios> <dominio>
-Instalação:
-
 Clone este repositório (opcional, se você já tem o código localmente):
 
 git clone https://github.com/caiqueortega2/dnsresolver.git
@@ -31,6 +23,11 @@ gcc dnsresolver.c -o dnsresolver
 
 Torne o executável:
 chmod +x dnsresolver
+
+Para utilizar o `dnsresolver`, siga as instruções abaixo após compilar o código:
+
+./dnsresolver <arquivo_subdominios> <dominio>
+Instalação:
 
 Recursos:
 Lê uma lista de subdomínios de um arquivo.
