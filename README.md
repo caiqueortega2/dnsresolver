@@ -27,7 +27,6 @@ chmod +x dnsresolver
 Para utilizar o `dnsresolver`, siga as instruções abaixo após compilar o código:
 
 ./dnsresolver <arquivo_subdominios> <dominio>
-Instalação:
 
 Recursos:
 Lê uma lista de subdomínios de um arquivo.
