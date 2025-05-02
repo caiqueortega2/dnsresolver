@@ -18,3 +18,41 @@ Para utilizar o `dnsresolver`, siga as instruções abaixo após compilar o cód
 
 ```bash
 ./dnsresolver <arquivo_subdominios> <dominio>
+Instalação:
+
+Clone este repositório (opcional, se você já tem o código localmente):
+
+Bash
+
+git clone [https://github.com/caiqueortega2/dnsresolver.git](https://github.com/caiqueortega2/dnsresolver.git)
+cd dnsresolver
+Compile o código:
+
+Bash
+
+gcc dnsresolver.c -o dnsresolver
+Torne o executável:
+
+Bash
+
+chmod +x dnsresolver
+Recursos:
+
+Lê uma lista de subdomínios de um arquivo.
+Tenta resolver o endereço IP para cada subdomínio.
+Exibe os subdomínios válidos encontrados com seus respectivos IPs.
+Evita verificações duplicadas de subdomínios.
+Observações:
+
+Certifique-se de que o arquivo de subdomínios exista.
+A ferramenta requer acesso à rede para realizar consultas DNS.
+Desenvolvido por silentxploitt.
+
+
+
+
+
+
+
+
+
