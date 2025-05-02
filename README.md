@@ -22,22 +22,17 @@ Instalação:
 
 Clone este repositório (opcional, se você já tem o código localmente):
 
-Bash
+git clone https://github.com/caiqueortega2/dnsresolver.git
 
-git clone [https://github.com/caiqueortega2/dnsresolver.git](https://github.com/caiqueortega2/dnsresolver.git)
 cd dnsresolver
+
 Compile o código:
-
-Bash
-
 gcc dnsresolver.c -o dnsresolver
+
 Torne o executável:
-
-Bash
-
 chmod +x dnsresolver
-Recursos:
 
+Recursos:
 Lê uma lista de subdomínios de um arquivo.
 Tenta resolver o endereço IP para cada subdomínio.
 Exibe os subdomínios válidos encontrados com seus respectivos IPs.
